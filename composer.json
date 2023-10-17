@@ -1,10 +1,9 @@
 {
-  "name": "dutekvejin/iterators",
+  "name": "arbor-education/iterators",
   "description": "",
   "type": "library",
   "license": "MIT",
   "keywords": [
-    "dutekvejin",
     "iterators"
   ],
   "authors": [
