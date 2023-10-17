@@ -1,0 +1,13 @@
+---
+name: Bump version
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  tag-release:
+    uses: arbor-education/gha.workflows/.github/workflows/tag-release-template.yaml@v0.0.4
+    with:
+      main_branch: master
