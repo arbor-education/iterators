@@ -8,3 +8,5 @@ on:
 jobs:
   build:
     uses: ./.github/workflows/build-php-library-template.yaml
+    with:
+      php_version: 8.1
