@@ -5,7 +5,7 @@
 The preferred method of installation is via [Composer](http://getcomposer.org/). Run the following command to install the latest version of a package and add it to your project's `composer.json`:
 
 ```bash
-composer require arbor-education/iterators
+composer require dutekvejin/iterators
 ```
 
 ## Usage
@@ -48,3 +48,6 @@ assert(iterator_to_array($mapIterator) === [1, 4, 9, 16, 25]);
 ## License
 
 Released under MIT License - see the [License File](LICENSE) for details.
+
+[link-author]: https://github.com/dutekvejin
+[link-contributors]: ../../contributors
