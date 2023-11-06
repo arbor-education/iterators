@@ -32,7 +32,7 @@ final class ChunkIterator implements Iterator
         $this->size = $size ?? 1;
     }
 
-    public function current()
+    public function current(): mixed
     {
         return $this->chunk;
     }

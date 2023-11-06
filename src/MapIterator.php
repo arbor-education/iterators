@@ -28,10 +28,11 @@ final class MapIterator extends IteratorIterator
         }
 
         parent::__construct($iterable);
+
         $this->callback = $callback;
     }
 
-    public function current()
+    public function current(): mixed
     {
         if (!$this->callbackResultCached) {
             $this->callbackResult = ($this->callback)(parent::current());
