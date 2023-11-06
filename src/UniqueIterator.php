@@ -17,7 +17,7 @@ use FilterIterator;
 
 final class UniqueIterator extends FilterIterator
 {
-    protected $seen = [];
+    protected array $seen = [];
 
     public function __construct(iterable $iterable)
     {
